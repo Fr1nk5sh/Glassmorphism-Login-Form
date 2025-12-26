@@ -1,0 +1,25 @@
+@use "../custom";
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    margin: -15px 0 15px;
+    color: #fff;
+
+    label {
+
+        input {
+            accent-color: #1f961f;
+            margin-right: 3px;
+        }
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

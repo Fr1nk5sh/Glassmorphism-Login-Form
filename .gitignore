@@ -1,0 +1,15 @@
+# Node / package files (if any)
+node_modules/
+package-lock.json
+
+# SASS cache
+.sass-cache/
+*.map
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
